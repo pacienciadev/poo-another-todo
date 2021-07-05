@@ -47,8 +47,9 @@ class Todo {
     doneBtn.addEventListener("click", function () {
       todo.doneTask(this);
 
-      let taskText = this.parentElement.querySelector(".task-title");
-      taskText.classList.add("doneText");
+      let getTask = this.parentElement;
+
+      getTask.classList.add("doneText");
 
       removeBtn.remove();
     });

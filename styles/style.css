@@ -1,0 +1,45 @@
+body {
+  min-height: 100vh;
+}
+
+.done {
+  color: chartreuse;
+  cursor: alias !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.doneText {
+  border-color: rgba(204, 204, 204, 0.6) !important;
+}
+
+.doneText .task-title {
+  color: rgba(204, 204, 204, 0.6);
+  text-decoration: line-through;
+}
+
+.task {
+  border: 2px solid;
+  padding: 8px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  border-radius: 4px;
+  margin: 4px 0;
+}
+
+.task > .icon {
+  padding: 4px 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.task-title__container {
+  flex: auto;
+  height: auto;
+  line-height: 42px;
+  font-size: 18px;
+  padding-left: 8px;
+}
